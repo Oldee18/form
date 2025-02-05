@@ -4,6 +4,7 @@
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    border-bottom: 5px solid rgba(0,0,0, 0.1);
 }
 
 .form-column-container {
@@ -43,4 +44,5 @@ input:required:focus {
 input:valid {
     border: 2px solid green
 }
+
 
