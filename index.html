@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <div class="form-container">
+    <div class="form-header-container">
         <header class="form-header">
             <h1>This is not a real online service! You know you need something<br>
             like this in your life to help you realize your deepest dreams. <br>
@@ -15,29 +15,23 @@
             You <i>know</i> you want to.</h1>
         </header>
         <form action="" method="get">
-            <div class="form-row">
-                <label for="first-name">First name</label>
-                <input type="text" id="first-name" name="first-name"/>
-            </div>
-            <div class="form-row">
-                <label for="second-name">Second name</label>
-                <input type="text" id="second-name" name="second-name"/>
-            </div>
-            <div class="form-row">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email">
-            </div>
-            <div class="form-row">
-                <label for="phone-number">Phone Number</label>
-                <input type="tel" id="phone-number" name="phone-number"/>
-            </div>
-            <div class="form-row">
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password">
-            </div>
-            <div class="form-row">
-                <label for="confirm-password">Confirm password</label>
-                <input type="password" id="confirm-password" name="confirm-password">
+            <div class="form-container">
+                <div class="form-column-container">
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" id="first-name" name="first-name">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="password">PASSWORD</label>
+                    <input type="password" id="password" name="password" required>
+                </div>   
+                <div class="form-column-container">
+                    <label for="second-name">SECOND NAME</label>
+                    <input type="text" name="second-name" id="second-name">
+                    <label for="phone-number">PHONE NUMBER</label>
+                    <input type="tel" id="phone-number" name="phone-number">
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>   
+                </div>
             </div>
         </form>
     </div>
