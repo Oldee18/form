@@ -25,6 +25,11 @@ input {
     border-radius: 15px;
 }
 
+input:focus {
+    outline: none;
+    border:  2px solid green;
+}
+
 :required {
     border: 2px solid red;
 }
