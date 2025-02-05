@@ -52,18 +52,20 @@ div > p {
 .left-side {
     background-image: url(./img/background.jpg);
     background-size: cover;
-    width: 40%;
+    width: 40vw;
     height: 100vh;
 }
 
 .right-side {
-    width: 60%;
+    width: 60vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
 .form-header-container {
-    margin: 100px 100px 0px 50px;
+    margin-top: 100px;
+    margin-left: 50px;
 }
 
 .form-container {
@@ -109,27 +111,29 @@ span {
 }
 
 .border {
-    width: 100%;
-    border: 2px solid rgba(0,0,0,0.4);
+    width: 59vw;
+    border: 2px solid rgba(0,0,0,0.2);
 }
 
 .buttons {
     margin-top: 50px;
+    margin-left: 50px;
     display: flex;
     flex-direction: column;
-    width: 100vw;
-    border-top: rgba(0,0,0,1);
+    width: 55vw;
     font-family: 'Times New Roman', Times, serif;
 }
 
 label {
     margin-bottom: 3px;
+    margin-left: 50px;
 }
 
 input {
     width: 200px;
     height: 20px;
     margin-bottom: 30px;
+    margin-left: 50px;
     border-radius: 15px;
 }
 
