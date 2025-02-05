@@ -152,7 +152,7 @@ input:required:focus {
     border: 2px solid blue;
 }
 
-@media (min-width: 415px) and (max-width: 600px) and (orientation:portrait) {
+@media (max-width: 600px) and (orientation:portrait) {
     @font-face {
         font-family: 'NorseBold';
         src: url(./fonts/Norse-Bold.otf) format('opentype');
@@ -163,6 +163,7 @@ input:required:focus {
         flex-direction: column;
         font-family: "NorseBold", "Helvetica", sans-serif;
         margin: 0;
+        border: 2px solid red;
     }
 
     .left-side {
