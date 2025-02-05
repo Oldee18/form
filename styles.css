@@ -2,6 +2,11 @@ body {
     display: flex;
     justify-content: center;
     height: 100%;
+    margin: 0;
+}
+
+h1 {
+    font-size: 30px;
 }
 
 .odin-logo-background {
@@ -12,7 +17,7 @@ body {
     background-color: rgba(0,0,0,0.2);
     height: 200px;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 30px;
     position: relative;
     top: 150px;
 }
@@ -39,20 +44,28 @@ div > p {
 
 .left-side {
     background-image: url(./img/background.jpg);
+    background-size: cover;
     width: 50%;
 }
+
 .right-side {
     width: 50%;
     display: flex;
     flex-direction: column;
+    border-bottom: 5px solid rgba(0,0,0, 0.1);
 }
+
+.form-header-container {
+    margin: 100px 100px 0px 50px;
+}
+
 .form-container {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
-    border-bottom: 5px solid rgba(0,0,0, 0.1);
+
 }
 
 .form-column-container {
@@ -80,8 +93,11 @@ input:required {
     border: 2px solid red;
 }
 
+input:valid {
+    border: 2px solid green
+}
+
 input:focus {
-    outline: none;
     border:  2px solid blue;
 }
 
@@ -89,8 +105,6 @@ input:required:focus {
     border: 2px solid blue;
 }
 
-input:valid {
-    border: 2px solid green
-}
+
 
 
