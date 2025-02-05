@@ -152,7 +152,7 @@ input:required:focus {
     border: 2px solid blue;
 }
 
-@media only screen and (min-width: 400px) and (max-width: 900px) {
+@media only screen and (min-width: 300px) and (max-width: 900px) {
     @font-face {
         font-family: 'NorseBold';
         src: url(./fonts/Norse-Bold.otf) format('opentype');
